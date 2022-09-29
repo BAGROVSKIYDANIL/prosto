@@ -1,0 +1,252 @@
+@media (max-width: 1200px)
+{
+    
+}
+@media (max-width: 991px)
+{
+    .promo
+    {
+        .header
+        {
+            padding: 0 35px;
+        }
+        &__wrapper
+        {
+            margin-right: 35px;
+        }
+    }
+    .consultation
+    {
+        padding-left: 35px;
+    }
+    .carousel
+    {
+        .slick-dots
+        {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 1rem 0;
+            list-style-type: none;
+            li
+            {
+                margin: 0 0.25rem;
+            }
+            button 
+            {
+			display: block;
+			width: 1rem;
+			height: 1rem;
+			padding: 0;
+			
+			border: none;
+			border-radius: 100%;
+			background-color: rgb(156, 152, 144);
+			
+			text-indent: -9999px;
+		    }
+            li.slick-active button 
+            {
+               background-color: $main-color;
+             }
+        }
+    }
+    .catalog
+    {
+        &__content
+        {
+            justify-content: space-around;
+        }
+    }
+
+
+}
+@media (max-width: 767px)
+{
+    .promo
+    {
+        .header
+        {
+            padding: 0 15px;
+            &__logo
+            {
+                width: 200px;
+            }
+            &__official
+            {
+                span
+                {
+                    font-size: 15px;
+                }
+            }
+            &__phone
+            {
+                 font-size: 15px;
+            }
+            .button
+            {
+                width: 130px;
+            }
+        }
+    }
+    .carousel
+    {
+        &__inner
+        {
+            width: 100%;
+            img
+            {
+                width: 575px;
+            }
+        }
+    }
+    .catalog
+    {
+        padding: 0 20px;
+
+        &__tab
+        {
+            font-size: 16px;
+        }
+    }
+
+    .advantages
+    {
+        &__wrapper
+        {
+            flex-direction: column;
+        }
+        &__item
+        {
+            &:nth-child(3) 
+            {
+                margin-top: 15px;
+            }
+            &:nth-child(2)
+            {
+                margin-top: 15px;
+            }
+        }
+    }
+    .consultation
+    {
+        .title
+        {
+            font-size: 30px;
+        }
+        &__descr
+        {
+            margin-top: 60px;
+        }
+    }
+}
+@media (max-width: 575px)
+{
+    .header
+    {
+        display: flex;
+        flex-direction: column;
+        &__logo
+        {
+            width: 200px;
+        }
+        &__contacts
+        {
+            margin-top: 10px;
+        }
+        &__official
+        {
+            margin-top: 15px;
+        }
+    }
+    .promo
+    {
+        &__wrapper
+        {
+            margin: 0;
+            margin-top: 30px;
+        }
+        &__header
+        {
+            font-size: 35px;
+            text-align: center;
+        }
+        &__subheader
+        {
+            text-align: center;
+        }
+        &__icons
+        {
+            margin: 0 auto;
+            width: 110px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        &__icon
+        {
+            margin-top: 20px;
+        }
+        .button-main
+        {
+            width: 250px;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        &__link
+        {
+            margin: 0 auto;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .consultation
+    {
+        .title-left
+        {
+            font-size: 19px;
+        }
+        &__descr
+        {
+            margin-top: 40px;
+            font-size: 15px;
+        }
+        .feed-form
+        {
+            width: 250px;
+            input
+            {
+                width: 250px;
+            }
+            .button-submit
+            {
+                width: 250px;
+            }
+        }
+    }
+    .carousel
+    {
+        &__inner
+        {
+            img
+            {
+                width: 300px;
+                margin: 0 auto;
+            }
+        }
+    }
+    .catalog
+    {
+        &__tabs
+        {
+            flex-wrap: wrap;
+        }
+        &__tab
+        {
+            margin-bottom: 10px;
+        }
+    }
+}
